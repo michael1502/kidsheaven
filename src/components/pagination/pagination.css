@@ -1,0 +1,30 @@
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10rem;
+    padding:0px 20px
+  }
+  
+  .pagination .nextnext {
+    font-size: 16px;
+  }
+  
+  .pagination li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: lightgray;
+    cursor: pointer;
+  
+  }
+  
+  .pagination .active {
+    color: red;
+  }
+  
+  .pagination .break a {
+    cursor: default;
+  }
+  
+  

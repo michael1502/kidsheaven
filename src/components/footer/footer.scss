@@ -1,0 +1,57 @@
+
+
+.footer-container{
+
+    margin: 2rem;
+    border-top: 1px solid lightgrey;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding:2rem 0;
+
+    .copyright {
+        font-family: .5rem;
+        font-size: .8rem;
+    }
+
+    .header-h2 {
+    margin-right:2.22rem;
+    margin-left:1.22rem;
+    margin-bottom: .7rem;
+    font-family: Poppins, sans-serif;
+    font-size: 1.8rem;
+    color: #EF5D25;
+
+
+     }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:720px){
+    .footer-container {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .header-h2{
+       
+        margin-bottom: 0;
+
+        }
+    
+    }
+}

@@ -1,0 +1,89 @@
+$logocolor:#CCA353;
+
+.Business {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 .5rem 2.3rem .5rem;
+    width: 16.66rem;
+
+    .image-container {
+        
+        margin-bottom: 1rem;
+        object-fit: cover;
+        img{
+          height:14rem;
+          max-height:100%;
+          max-width:100;
+          object-fit: fill;
+     
+
+        }
+      }
+
+      h2 {
+        margin-bottom: .5rem;
+        font-size: 1.2rem;
+        font-weight:600
+      }
+  }
+  
+  .Business-information {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+        font-size: .88rem;
+        font-weight:300;
+        line-height:1rem;
+      }
+  }
+  
+  .Business-reviews {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    text-align:right;
+
+    h3 {
+        color:$logocolor;
+        font-weight:600;
+      }
+      h3:nth-of-type(2){
+        font-size:.88rem;
+        line-height:1rem;
+      }
+      
+
+  }
+  
+ 
+  
+
+  .Business-address {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+     a {
+        text-decoration: none;
+        color: blue;
+      }
+      
+      a:link {
+        text-decoration: none;
+        color: blue;
+      }
+      
+       a:visited {
+        
+        color: black;
+      }
+      
+       a:hover {
+        color:red;
+      }
+
+
+  }
+  
