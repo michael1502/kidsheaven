@@ -1,4 +1,4 @@
-$thirdcolor: #EF5D25;
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -34,40 +34,23 @@ q:before, q:after {
 
 
 html {
-    font-size: 18px;
+    font-size: 15px;
   }
   
-  @media only screen and (max-width: 560px) {
+  @media only screen and (min-width: 800px) {
     html {
-      font-size: 15px;
+      font-size: 18px;
     }
   }
   
-  input:focus {
-    outline: none;
-  }
 
-  
-  .image-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    overflow: hidden;
- 
-  }
-  
-  .image-container img {
-    width: 100%;
-  }
-  
-  /* App Styles */
   
   .App {
     font-family: 'Work Sans', sans-serif;
-  }
+  
   
   h1 {
-    padding: .66rem 0;
+    padding: .46rem 0;
     text-align: center;
     background-color: #cca353;
     font-family: Poppins, sans-serif;
@@ -75,33 +58,5 @@ html {
     color: #fff;
   }
   
-  
-  .pagination {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10rem;
-    padding:0px 20px
-  }
-  
-  .pagination .nextnext {
-    font-size: 16px;
-  }
-  
-  .pagination li {
-    display: inline-block;
-    text-decoration: none;
-    padding: 10px;
-    background-color: lightgray;
-    cursor: pointer;
-  
-  }
-  
-  .pagination .active {
-    color: red;
-  }
-  
-  .pagination .break a {
-    cursor: default;
-  }
-  
-  
+}
+

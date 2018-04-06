@@ -1,89 +1,87 @@
 $logocolor:#CCA353;
+$highlightcolor:rgb(51, 9, 240);
+$normalblack:rgb(5,5,5);
+%pfont{
+  font-size: .88rem;
+  line-height:1rem;
+};
+
+@mixin flexbox($direction, $justify-content){
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify-content
+}
 
 .Business {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+
+  @include flexbox(column, space-between);
     margin: 0 .5rem 2.3rem .5rem;
     width: 16.66rem;
 
-    .image-container {
+  .image-container {
         
         margin-bottom: 1rem;
-        object-fit: cover;
+       
         img{
           height:14rem;
           max-height:100%;
           max-width:100;
           object-fit: fill;
-     
-
+          width:100%;
         }
-      }
+  }
 
-      h2 {
+  h2 {
         margin-bottom: .5rem;
         font-size: 1.2rem;
         font-weight:600
-      }
   }
+
   
   .Business-information {
-    display: flex;
-    justify-content: space-between;
+
+    @include flexbox(row, space-between);
 
     p {
-        font-size: .88rem;
+      @extend %pfont;  
         font-weight:300;
-        line-height:1rem;
       }
-  }
-  
-  .Business-reviews {
-    display:flex;
-    flex-direction:column;
-    justify-content: space-between;
-    text-align:right;
 
-    h3 {
-        color:$logocolor;
-        font-weight:600;
-      }
-      h3:nth-of-type(2){
-        font-size:.88rem;
-        line-height:1rem;
-      }
-      
+    .Business-reviews {
 
-  }
-  
- 
-  
-
-  .Business-address {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-     a {
-        text-decoration: none;
-        color: blue;
-      }
-      
-      a:link {
-        text-decoration: none;
-        color: blue;
-      }
-      
-       a:visited {
+        @include flexbox(column, space-between);
         
-        color: black;
-      }
+        text-align:right;
+    
+        h3 {
+            color:$logocolor;
+            font-weight:600;
+          }
+          h3:nth-of-type(2){
+            @extend %pfont;  
+          }
+    }
       
-       a:hover {
-        color:red;
-      }
-
+    .Business-address {
+        @include flexbox(column, space-between);
+    
+         a {
+            text-decoration: none;
+          
+          &:link {
+            color: $normalblack;
+          }
+          
+           &:visited {
+            color: $highlightcolor;
+          }
+           &:hover {
+            color:$highlightcolor;
+          }
+    
+        }
+    }
 
   }
   
+}

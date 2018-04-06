@@ -8,23 +8,15 @@ export const Footer = () => {
     return (
         <div className="footer-container">
 
-          
-
-        
-
-
-                <div className="left">
-                    <div className='logo'>    <h2 className="header-h2">KidsHeaven</h2> </div>
+                <div>
+                  <h2 className="logo">KidsHeaven</h2>
    
                 </div>
                 
-                <div className="right">
-                    <div className="copyright">  © 2018 KidsHeaven, Inc. All rights reserved</div>
+                <div className="copyright">
+                     © 2018 KidsHeaven, Inc. All rights reserved
         
                 </div>
-
-
-   
 
         </div>
     )

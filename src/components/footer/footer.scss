@@ -8,17 +8,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    padding:2rem 0;
+    padding:2rem 1.22rem;
 
     .copyright {
-        font-family: .5rem;
-        font-size: .8rem;
+            font-size: .9rem;
     }
 
-    .header-h2 {
+    .logo {
     margin-right:2.22rem;
-    margin-left:1.22rem;
     margin-bottom: .7rem;
     font-family: Poppins, sans-serif;
     font-size: 1.8rem;

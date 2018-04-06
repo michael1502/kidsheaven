@@ -8,7 +8,8 @@ import { Yelp } from '../utils/yelp';
 import  { initialList } from '../components/initialrenderinglist';
 import {Loading} from '../components/Loading/loading';
 import { Footer } from '../components/footer/footer';
-import { BackToTop } from '../components/backtotop/backtotop'
+import { BackToTop } from '../components/backtotop/backtotop';
+
 
 
 
@@ -101,7 +102,7 @@ class App extends Component {
     return (
       <div className="App" >
     
-        <h1>kidsheaven</h1>
+        <h1>heavendream</h1>
         <SearchBar handleSubmitClick={this.handleApi}
           limit={this.state.limit}
           term={this.state.term}

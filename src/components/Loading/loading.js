@@ -7,7 +7,7 @@ export const Loading = (props)=>{
 
         <div className="loading-container" >
 
-          <p className="loading-title">Loading now!</p>
+          <p className="loading-title">Loading now...</p>
 
           
               <div className="loading-animation">
