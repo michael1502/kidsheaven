@@ -1,6 +1,6 @@
 import React from 'react';
 import './searchbar.scss';
-import {image} from '../../images/ocean.jpg'
+
 
 const sortByOptions = {
   'Best Match': 'best_match',

@@ -102,7 +102,7 @@ class App extends Component {
     return (
       <div className="App" >
     
-        <h1>heavendream</h1>
+        <h1>kidsheaven</h1>
         <SearchBar handleSubmitClick={this.handleApi}
           limit={this.state.limit}
           term={this.state.term}
