@@ -26,9 +26,7 @@ $highlightcolor:#f0c36c;
 
 
     background: {
-      image:url('../../images/latest.jpg');
-      //image:url('../../images/new.jpg');
-      //https://gallery.mailchimp.com/59f3454a441e4fb18052927ef/images/e5064cab-d27a-4c26-aca8-646694d316de.jpg
+      image:url('https://gallery.mailchimp.com/59f3454a441e4fb18052927ef/images/e5064cab-d27a-4c26-aca8-646694d316de.jpg');
       size:cover;
       repeat:no-repeat;
 
@@ -119,14 +117,12 @@ $highlightcolor:#f0c36c;
   @media only screen and (min-width: 800px) {
 
    
-        background-image: url('https://gallery.mailchimp.com/59f3454a441e4fb18052927ef/images/e5064cab-d27a-4c26-aca8-646694d316de.jpg');
+   background-image: url('https://gallery.mailchimp.com/59f3454a441e4fb18052927ef/images/e5064cab-d27a-4c26-aca8-646694d316de.jpg');
       
-
-
-    .searchbar-container {
-      padding: 1.2rem 0 1.8rem 0;
     
-    }
+      padding-bottom: 1.8rem;
+    
+    
   
     .SearchBar-sort-options ul {
       margin-bottom: 2.22rem;
@@ -149,8 +145,8 @@ $highlightcolor:#f0c36c;
       text-align: center;
       font-family: 'Work Sans', sans-serif;
       font-size:3rem;
-      margin-bottom: 2rem;
-      margin-top:1rem;
+      margin: .5rem 0;
+
     }
   }
 
