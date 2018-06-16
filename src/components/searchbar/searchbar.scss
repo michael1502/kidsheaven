@@ -8,7 +8,7 @@ $highlightcolor:#f0c36c;
 
 
 
-.searchbar {
+.searchbartrial {
   
   //display: grid;
   //grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -21,16 +21,6 @@ $highlightcolor:#f0c36c;
   font-family: 'Work Sans', sans-serif;
   height:20rem;
   padding:1rem 0;
- 
-  
-
-
-    background: {
-      image:url('https://gallery.mailchimp.com/59f3454a441e4fb18052927ef/images/e5064cab-d27a-4c26-aca8-646694d316de.jpg');
-      size:cover;
-      repeat:no-repeat;
-
-    }
 
   
   .newTitle{
@@ -117,7 +107,6 @@ $highlightcolor:#f0c36c;
   @media only screen and (min-width: 800px) {
 
    
-   background-image: url('https://gallery.mailchimp.com/59f3454a441e4fb18052927ef/images/e5064cab-d27a-4c26-aca8-646694d316de.jpg');
       
     
       padding-bottom: 1.8rem;

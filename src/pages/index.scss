@@ -54,6 +54,22 @@ html {
           font-size: 1.8rem;
           color: #fff;
         }
-  
+        .responsive1{
+          display:none,
+        }
+ 
+}
+
+@media screen and (max-width: 500px){
+  .App .responsive1 {
+    display: inline-block;
+  }
+  .App .responsive1 img {
+    object-fit: fill
+  }
+  .App .responsive {
+    display: none;
+  }
+
 }
 

@@ -75,12 +75,14 @@ export class SearchBar extends React.Component {
   render() {
     
     return (
-      <div className="searchbar">
+      <div className="searchbartrial">
 
       <div className='newTitle'> Top 30 for Auckland Kids
       </div>
        
-        <div className="SearchBar-sort-options">
+        <div 
+        className="SearchBar-sort-options"
+       >
         <ul>
          {this.renderSortByOptions()}
 
@@ -101,3 +103,13 @@ export class SearchBar extends React.Component {
   }
 }
 
+export const query = graphql`
+query herimage {
+  imageSharp (id:{regex:"/latest/"}){
+    sizes (
+     quality:100) {
+      ...GatsbyImageSharpSizes
+    }
+  }
+}
+`
